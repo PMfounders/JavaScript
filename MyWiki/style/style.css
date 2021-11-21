@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    font-family: 'Itim', cursive;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: rgb(226, 222, 222);
+}
+
+header {
+    background-color: lightgray;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.logo_name {
+    color: rgb(8, 8, 31);
+    padding-left: 30px;
+}
+
+a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 10px 0px 10px 0px;
+}
+
+main {
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.box {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(40, 61, 82);
+}
+
+#searchInput {
+    -webkit-appearance: none;
+    font-family: 'Itim', cursive;
+    width: 30px;
+    padding: 0 8px;
+    height: 45px;
+    font-size: 24px;
+    color: #545151;
+    line-height: 25px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 0 0 1px rgba(13, 148, 193, 0.5), inset 0 2px 5px rgba(8, 90, 132, 0.3), 0 2px 0 rgba(247, 242, 242, 0.6);
+    position: relative;
+    z-index: 5;
+    transition: .3s ease;
+}
+  
+#searchInput:focus {
+    outline: none;
+    width: 195px;
+}
+  
+form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+}
+
+.searchBox {
+    z-index: 4;
+    position: relative;
+    padding: 4px;
+    line-height: 0;
+    border-radius: 100px;
+    background: #bee6f5;
+    background-image: -webkit-linear-gradient(#bcdce6,#e1eff5);
+    background-image: -moz-linear-gradient(#dbf6ff,#b9ecfe);
+    display: inline-block;
+    box-shadow: inset 0 1px 0 rgba(239, 231, 231, 0.6), 0 2px 5px rgba(10, 68, 97, 0.4);
+}
+  
+.searchBox:hover {
+  box-shadow: inset 0 1px 0 rgba(49, 247, 247, 0.67), 0 2px 3px 2px rgba(80, 180, 234, 0.52);
+}
+  
+.searchBox:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 19px;
+    background: #b9ecfe;
+    bottom: -9px;
+    right: -4px;
+    border-radius: 0 0 4px 4px;
+    transform: rotate(-45deg);
+    box-shadow: inset 0 -1px 0 rgba(249, 246, 246, 0.61), -2px 2px 2px rgba(9, 93, 136, 0.46);
+}
+  
+.searchBox:hover:after {
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,.6), -2px 2px 2px 1px rgba(100,200,255,.5);
+}
+
+
+.resultItem{
+  background: #f8f5f1;
+  border-radius:3px;
+  margin: 30px 10px 30px 10px;
+  padding:10px;
+  text-align: left;
+  font-style: italic;
+  height: auto;
+}
+
+.resultItem:hover{
+  border:5px solid #443328;
+}
+
+.resultSnippet {
+  font-size: 20px;
+}
