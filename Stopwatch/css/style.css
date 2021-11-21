@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+#stopwatch {
+    position: relative;
+    bottom: 550px;
+    right: 15%;
+    color: white;
+    font-size: 35px;
+    width: 100px;
+}
+
+button {
+    margin: 0px 50px 70px 50px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.button_app {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 795px;
+    max-height: 800px;
+}
