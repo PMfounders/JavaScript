@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="block wrap">
+        <h1 class="heading">Current weather by current location</h1>
+        <button id="get_data" class="button">Update</button>
+        <h2 class="city" id='city'>...</h2> 
+        <ul>
+            <li id="temperature">...</li>
+            <li id="feels_like">...</li>
+            <li id="humidity">...</li>
+            <li id="wind">...</li>
+            <li id="characteristic">...</li> 
+        </ul>
+    </div>
+    <div class="wrap block">
+        <h1 class="heading">Current weather by city</h1>
+        <div class="block_small">
+            <input id='cityName' type="text">
+            <button class="button" id="voice_record">&#127908;</button>
+        </div>
+        <button class="button" id="get_city_data">Find</button>
+        <ul>
+            <li id="temperature2">...</li>
+            <li id="feels_like2">...</li>
+            <li id="humidity2">...</li>
+            <li id="wind2">...</li>
+            <li id="characteristic2">...</li> 
+        </ul>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
